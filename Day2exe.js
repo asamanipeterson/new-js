@@ -23,13 +23,13 @@ for(;i<numbers.length;i++){
         console.log(numbers[i])
     };
 }
-console.log(`let's intorduce a braek here`)
+
 for(num of numbers){
     if(num%5===0){
         console.log(num)
     }
 }
-console.log(`let's intorduce a braek here`)
+
 //foreach
 
 numbers.forEach(item =>{
@@ -37,7 +37,7 @@ numbers.forEach(item =>{
         console.log(item)
     }
 })
-console.log(`let's intorduce a braek here`)
+
 //Exercise 3
 let count =10;
 while(count>=1){
@@ -47,7 +47,6 @@ while(count>=1){
     }
     count--
 } 
-console.log(`let's intorduce a braek here`)
 //Using a for loop
 count=10;
 for(; count>=1;count--){
