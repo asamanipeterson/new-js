@@ -30,8 +30,29 @@ for(num of numbers){
     }
 }
 console.log(`let's intorduce a braek here`)
+//foreach
+
 numbers.forEach(item =>{
     if(item%5===0){
         console.log(item)
     }
 })
+console.log(`let's intorduce a braek here`)
+//Exercise 3
+let count =10;
+while(count>=1){
+    console.log(count);
+    if(count===5){
+        console.log(`Stopped early!`)
+    }
+    count--
+} 
+console.log(`let's intorduce a braek here`)
+//Using a for loop
+count=10;
+for(; count>=1;count--){
+    if(count===5){
+        console.log(`Stopped early!`)
+    }
+    console.log(count)
+}
