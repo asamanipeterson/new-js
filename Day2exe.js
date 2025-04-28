@@ -30,7 +30,7 @@ for(num of numbers){
     }
 }
 console.log(`let's intorduce a braek here`)
-numbers.forEach(item=>{
+numbers.forEach(item =>{
     if(item%5===0){
         console.log(item)
     }
